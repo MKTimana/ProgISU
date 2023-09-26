@@ -14,7 +14,7 @@ public class Calc implements ActionListener {
     private JButton btnClear;
 
     public Calc() {
-        jf = new JFrame("Calcudora");
+        jf = new JFrame("Calculadora");
         jf.setSize(200, 190);
         jf.setLocationRelativeTo(null);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
