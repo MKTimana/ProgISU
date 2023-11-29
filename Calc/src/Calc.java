@@ -28,7 +28,8 @@ public class Calc implements ActionListener {
         txtNum1 = new JTextField(7);
         txtNum2 = new JTextField(7);
         txtRes = new JTextField(7);
-        txtRes.setEnabled(false);
+        // txtRes.setEnabled(false);
+        txtRes.setEditable(false);
         txtRes.setBackground(Color.WHITE);
 
         btnSum = new JButton("Somar");
