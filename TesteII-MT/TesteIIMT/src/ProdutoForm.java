@@ -95,7 +95,7 @@ public class ProdutoForm extends JFrame implements ActionListener {
 		// add(new JScrollPane(tf_resultado), BorderLayout.SOUTH);
 
         this.add(panFields);
-        this.add(panButtons);
+        this.add(panButtons); 
 
     }
 
